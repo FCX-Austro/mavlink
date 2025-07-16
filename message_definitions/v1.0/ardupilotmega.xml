@@ -1890,5 +1890,16 @@
       <field type="uint16_t[4]" name="rpm" units="rpm">RPM (eRPM).</field>
       <field type="uint16_t[4]" name="count">count of telemetry packets received (wraps at 65535).</field>
     </message>
+    <message id="11045" name="ENGINE_DATA">
+      <description>Engine data.</description>
+      <field type="float" name="CHT" units="degC">Cylinder Head Temperature.</field>
+      <field type="float" name="WT" units="degC">Water Temperature.</field>
+      <field type="float" name="EGT" units="degC">Exhaust Gas Temperature.</field>
+      <field type="uint16_t" name="prop_rpm" units="rpm">Propeller RPM.</field>
+      <field type="uint16_t" name="rpm" units="rpm">Engine RPM.</field>
+      <field type="float" name="fuel_tank1" units="l">Fuel volume left in tank 1.</field>
+      <field type="float" name="fuel_tank2" units="l">Fuel volume left in tank 2.</field>
+      <field type="float" name="fuel_total" units="l">Total fuel volume left.</field>
+      <field type="float" name="fuel_consumption" units="l/min">Fuel consumption rate.</field>
   </messages>
 </mavlink>

@@ -1901,5 +1901,6 @@
       <field type="float" name="fuel_tank2" units="l">Fuel volume left in tank 2.</field>
       <field type="float" name="fuel_total" units="l">Total fuel volume left.</field>
       <field type="float" name="fuel_consumption" units="l/min">Fuel consumption rate.</field>
+    </message>
   </messages>
 </mavlink>
